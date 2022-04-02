@@ -16,24 +16,25 @@ public class SimpleArrayList<T> implements List<T> {
         this.container = (T[]) new Object[capacity];
     }
 
-    @Override
-    public void add(T value) {
-        modCount++;
-        if  (size == container.length) {
+    private void setContainerLengths(int size) {
+        if (size < container.length) {
             container = Arrays.copyOf(container, container.length * 2);
-        }
-        for (int i = 0; i < container.length; i++) {
-            if (container[i] == null) {
-                container[i] = value;
-                size++;
-                break;
-            }
+        } else if (container.length == 0) {
+            container = Arrays.copyOf(container, 3);
         }
     }
 
     @Override
+    public void add(T value) {
+        modCount++;
+        setContainerLengths(size);
+        container[size++] = value;
+    }
+
+    @Override
     public T set(int index, T newValue) {
-        T set = container[Objects.checkIndex(index, container.length)];
+        Objects.checkIndex(index, size);
+        T set = container[index];
         container[Objects.checkIndex(index, container.length)] = newValue;
         return set;
     }
@@ -42,7 +43,8 @@ public class SimpleArrayList<T> implements List<T> {
     public T remove(int index) {
         modCount++;
         size--;
-        T remove = container[Objects.checkIndex(index, container.length)];
+        Objects.checkIndex(index, size);
+        T remove = container[index];
         System.arraycopy(container, index + 1, container, index, container.length - index - 1);
         container[container.length - 1] = null;
         return remove;
@@ -50,7 +52,8 @@ public class SimpleArrayList<T> implements List<T> {
 
     @Override
     public T get(int index) {
-        return container[Objects.checkIndex(index, container.length)];
+        Objects.checkIndex(index, size);
+        return container[index];
     }
 
     @Override
