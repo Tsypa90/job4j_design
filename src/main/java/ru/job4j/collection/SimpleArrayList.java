@@ -16,8 +16,14 @@ public class SimpleArrayList<T> implements List<T> {
         this.container = (T[]) new Object[capacity];
     }
 
+    private T containerReturn(int index) {
+        Objects.checkIndex(index, size);
+        T rsl = container[index];
+        return rsl;
+    }
+
     private void setContainerLengths(int size) {
-        if (size < container.length) {
+        if (size == container.length) {
             container = Arrays.copyOf(container, container.length * 2);
         } else if (container.length == 0) {
             container = Arrays.copyOf(container, 3);
@@ -33,9 +39,8 @@ public class SimpleArrayList<T> implements List<T> {
 
     @Override
     public T set(int index, T newValue) {
-        Objects.checkIndex(index, size);
-        T set = container[index];
-        container[Objects.checkIndex(index, container.length)] = newValue;
+        T set = containerReturn(index);
+        container[index] = newValue;
         return set;
     }
 
@@ -43,8 +48,7 @@ public class SimpleArrayList<T> implements List<T> {
     public T remove(int index) {
         modCount++;
         size--;
-        Objects.checkIndex(index, size);
-        T remove = container[index];
+        T remove = containerReturn(index);
         System.arraycopy(container, index + 1, container, index, container.length - index - 1);
         container[container.length - 1] = null;
         return remove;
@@ -83,5 +87,12 @@ public class SimpleArrayList<T> implements List<T> {
                 return container[index++];
             }
         };
+    }
+
+    public static void main(String[] args) {
+        SimpleArrayList test = new SimpleArrayList(0);
+        System.out.println(test.size());
+        test.add(1);
+
     }
 }
