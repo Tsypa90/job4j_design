@@ -1,48 +1,35 @@
 package ru.job4j.collection.list;
 
-import org.w3c.dom.Node;
+import ru.job4j.collection.ForwardLinked;
 
 import java.util.*;
 
 public class SimpleLinkedList<E> implements List<E> {
-    private E[] container;
     private int modCount;
     private int size;
-    private E last;
-    private E first;
-    private E prev;
-    private E next;
+    private Node<E> first;
+    private Node<E> last;
+    private Node<E> node;
 
-    public SimpleLinkedList() {
-        this.container = (E[]) new Object[size];
-    }
+    private static class Node<E> {
+        E item;
+        Node<E> next;
 
-    private void setContainerLengths(int size) {
-        if (container.length == 0) {
-            container = Arrays.copyOf(container, 3);
-        } else if (size == container.length) {
-            container = Arrays.copyOf(container, container.length * 2);
-        }
-    }
-
-    private void addNode(E value) {
-        container[size] = value;
-        if (size == 0) {
-            first = container[size];
-            last = container[size];
-            prev = null;
-            next = null;
-        } else {
-            last = container[container.length - 1];
-            prev = container[size - 1];
-            next = null;
+        Node(E element, Node<E> next) {
+            this.item = element;
+            this.next = next;
         }
     }
 
     @Override
     public void add(E value) {
-        setContainerLengths(size);
-        addNode(value);
+        Node<E> newNode = new Node<>(value, null);
+        if (first == null) {
+            first = newNode;
+        }
+        last = newNode;
+        node = first;
+        node.next = last;
         size++;
         modCount++;
     }
@@ -50,7 +37,10 @@ public class SimpleLinkedList<E> implements List<E> {
     @Override
     public E get(int index) {
         Objects.checkIndex(index, size);
-        return container[index];
+        for (int i = 0; i < index; i++) {
+            node = node.next;
+        }
+        return node.item;
     }
 
     @Override
@@ -64,7 +54,8 @@ public class SimpleLinkedList<E> implements List<E> {
                 if (expectedModCount != modCount) {
                     throw new ConcurrentModificationException();
                 }
-                return index < size;
+               /*return index < size;*/
+                return node != null;
             }
 
             @Override
@@ -72,7 +63,10 @@ public class SimpleLinkedList<E> implements List<E> {
                 if (!hasNext()) {
                     throw new NoSuchElementException();
                 }
-                return container[index++];
+                /*return get(index++);*/
+                E value = node.item;
+                node = node.next;
+                return value;
             }
         };
     }
