@@ -26,7 +26,11 @@ public class SimpleLinkedList<E> implements List<E> {
             modCount++;
             return;
         }
-        head.next = newNode;
+        Node<E> tail = head;
+        while (tail.next != null) {
+            tail = tail.next;
+        }
+        tail.next = newNode;
         size++;
         modCount++;
     }
@@ -34,10 +38,11 @@ public class SimpleLinkedList<E> implements List<E> {
     @Override
     public E get(int index) {
         Objects.checkIndex(index, size);
+        Node<E> node = head;
         for (int i = 0; i < index; i++) {
-            head = head.next;
+            node = node.next;
         }
-        return head.item;
+        return node.item;
     }
 
     @Override

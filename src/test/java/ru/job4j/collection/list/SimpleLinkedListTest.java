@@ -106,4 +106,14 @@ public class SimpleLinkedListTest {
         assertThat(it.next(), Is.is(1));
         assertThat(it.next(), Is.is(1));
     }
+
+    @Test
+    public void when3AddAnd1Get() {
+        List<Integer> list = new SimpleLinkedList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        list.add(4);
+        assertSame(4, list.get(3));
+    }
 }
