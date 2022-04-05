@@ -1,15 +1,11 @@
 package ru.job4j.collection.list;
 
-import ru.job4j.collection.ForwardLinked;
-
 import java.util.*;
 
 public class SimpleLinkedList<E> implements List<E> {
     private int modCount;
     private int size;
-    private Node<E> first;
-    private Node<E> last;
-    private Node<E> node;
+    private Node<E> head;
 
     private static class Node<E> {
         E item;
@@ -24,12 +20,13 @@ public class SimpleLinkedList<E> implements List<E> {
     @Override
     public void add(E value) {
         Node<E> newNode = new Node<>(value, null);
-        if (first == null) {
-            first = newNode;
+        if (head == null) {
+            head = newNode;
+            size++;
+            modCount++;
+            return;
         }
-        last = newNode;
-        node = first;
-        node.next = last;
+        head.next = newNode;
         size++;
         modCount++;
     }
@@ -38,14 +35,15 @@ public class SimpleLinkedList<E> implements List<E> {
     public E get(int index) {
         Objects.checkIndex(index, size);
         for (int i = 0; i < index; i++) {
-            node = node.next;
+            head = head.next;
         }
-        return node.item;
+        return head.item;
     }
 
     @Override
     public Iterator iterator() {
         return new Iterator<E>() {
+            Node<E> node = head;
             private int index = 0;
             private int expectedModCount = modCount;
 
@@ -54,7 +52,6 @@ public class SimpleLinkedList<E> implements List<E> {
                 if (expectedModCount != modCount) {
                     throw new ConcurrentModificationException();
                 }
-               /*return index < size;*/
                 return node != null;
             }
 
@@ -63,7 +60,6 @@ public class SimpleLinkedList<E> implements List<E> {
                 if (!hasNext()) {
                     throw new NoSuchElementException();
                 }
-                /*return get(index++);*/
                 E value = node.item;
                 node = node.next;
                 return value;

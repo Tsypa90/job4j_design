@@ -69,7 +69,7 @@ public class SimpleLinkedListTest {
         assertThat(it.next(), Is.is(1));
         assertThat(it.next(), Is.is(2));
     }
-/*
+
     @Test
     public void whenGetIteratorTwiceThenEveryFromBegin() {
         List<Integer> list = new SimpleLinkedList<>();
@@ -87,7 +87,7 @@ public class SimpleLinkedListTest {
         assertThat(second.hasNext(), Is.is(true));
         assertThat(second.next(), Is.is(2));
         assertThat(second.hasNext(), Is.is(false));
-    }*/
+    }
 
     @Test(expected = ConcurrentModificationException.class)
     public void whenGetIteratorButException() {
@@ -97,7 +97,7 @@ public class SimpleLinkedListTest {
         list.add(2);
         assertThat(first.hasNext(), Is.is(true));
     }
-/*
+
     @Test(expected = NoSuchElementException.class)
     public void whenAddIterNextTwiceThenException() {
         List<Integer> list = new SimpleLinkedList<>();
@@ -105,5 +105,5 @@ public class SimpleLinkedListTest {
         Iterator<Integer> it = list.iterator();
         assertThat(it.next(), Is.is(1));
         assertThat(it.next(), Is.is(1));
-    }*/
+    }
 }
