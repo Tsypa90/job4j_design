@@ -13,14 +13,14 @@ public class User {
         this.birthday = birthday;
     }
 
-//    @Override
-//    public String toString() {
-//        return "User{"
-//                + "name='" + name + '\''
-//                + ", children=" + children
-//                + ", birthday=" + birthday
-//                + '}';
-//    }
+    @Override
+    public String toString() {
+        return "User{"
+                + "name='" + name + '\''
+                + ", children=" + children
+                + ", birthday=" + birthday
+                + '}';
+    }
 
     public static void main(String[] args) {
         User one = new User("Pavel", 1, new GregorianCalendar(1990, 9, 03));
