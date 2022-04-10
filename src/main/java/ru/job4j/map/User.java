@@ -13,14 +13,14 @@ public class User {
         this.birthday = birthday;
     }
 
-    @Override
-    public String toString() {
-        return "User{"
-                + "name='" + name + '\''
-                + ", children=" + children
-                + ", birthday=" + birthday
-                + '}';
-    }
+//    @Override
+//    public String toString() {
+//        return "User{"
+//                + "name='" + name + '\''
+//                + ", children=" + children
+//                + ", birthday=" + birthday
+//                + '}';
+//    }
 
     public static void main(String[] args) {
         User one = new User("Pavel", 1, new GregorianCalendar(1990, 9, 03));
@@ -29,10 +29,12 @@ public class User {
         map.put(one, new Object());
         map.put(two, new Object());
         for (User test : map.keySet()) {
-            System.out.println(test.toString() + " " + map.get(test));
+            System.out.println(test.toString() + "=" + map.get(test));
         }
+        int i = (16 - 1) & 2306996;
+        System.out.println(i);
     }
-/*
+
     @Override
     public boolean equals(Object o) {
         if (this == o) {
@@ -43,7 +45,7 @@ public class User {
         }
         User user = (User) o;
         return children == user.children && Objects.equals(name, user.name) && Objects.equals(birthday, user.birthday);
-    }*/
+    }
 
     @Override
     public int hashCode() {
