@@ -15,7 +15,7 @@ public class SimpleMap<K, V> implements Map<K, V> {
 
     private MapEntry<K, V>[] table = new MapEntry[capacity];
 
-    public boolean isEmpty(K key) {
+    private boolean isEmpty(K key) {
         return table[indexFor(hash(key.hashCode()))] == null;
     }
 
@@ -43,32 +43,27 @@ public class SimpleMap<K, V> implements Map<K, V> {
 
     private void expand() {
         capacity = capacity * 2;
-        MapEntry<K, V>[] tempTable = new MapEntry[capacity];
-        int index = 0;
-        for (MapEntry<K, V> elementOne : table) {
-            if (elementOne != null) {
-                tempTable[index++] = elementOne;
-                elementOne = null;
-            }
-        }
-        count = 0;
+        MapEntry<K, V>[] newTable = new MapEntry[capacity];
+        newTable = table;
         table = new MapEntry[capacity];
-        for (MapEntry<K, V> elementTwo : tempTable) {
-            if (elementTwo != null) {
-                put(elementTwo.key, elementTwo.value);
+        count = 0;
+        for (MapEntry<K, V> value : newTable) {
+            if (value != null) {
+                put(value.key, value.value);
             }
         }
     }
 
     @Override
     public V get(K key) {
-        return table[indexFor(hash(key.hashCode()))] != null ? table[indexFor(hash(key.hashCode()))].value : null;
+        return table[indexFor(hash(key.hashCode()))] != null && table[indexFor(hash(key.hashCode()))].key == key
+                ? table[indexFor(hash(key.hashCode()))].value : null;
     }
 
     @Override
     public boolean remove(K key) {
         boolean result = false;
-        if (!isEmpty(key)) {
+        if (!isEmpty(key) && table[indexFor(hash(key.hashCode()))].key == key) {
             table[indexFor(hash(key.hashCode()))] = null;
             modCount++;
             count--;
@@ -81,14 +76,16 @@ public class SimpleMap<K, V> implements Map<K, V> {
     public Iterator<K> iterator() {
         return new Iterator<K>() {
             private int index = 0;
-            private int elements = 0;
             private int expectedModCount = modCount;
             @Override
             public boolean hasNext() {
                 if (expectedModCount != modCount) {
                     throw new ConcurrentModificationException();
                 }
-                return elements < count;
+                while (index < table.length && table[index] == null) {
+                    index++;
+                }
+                return index < table.length;
             }
 
             @Override
@@ -96,16 +93,7 @@ public class SimpleMap<K, V> implements Map<K, V> {
                 if (!hasNext()) {
                     throw new NoSuchElementException();
                 }
-                K result = null;
-                for (int  i = index; i < table.length; i++) {
-                    index++;
-                    if (table[i] != null) {
-                        result = table[i].key;
-                        elements++;
-                        break;
-                    }
-                }
-                return result;
+                return table[index++].key;
             }
         };
     }
