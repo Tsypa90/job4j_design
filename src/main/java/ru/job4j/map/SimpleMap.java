@@ -3,6 +3,7 @@ package ru.job4j.map;
 import java.util.ConcurrentModificationException;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
+import java.util.Objects;
 
 public class SimpleMap<K, V> implements Map<K, V> {
     private static final float LOAD_FACTOR = 0.75f;
@@ -56,14 +57,18 @@ public class SimpleMap<K, V> implements Map<K, V> {
 
     @Override
     public V get(K key) {
-        return table[indexFor(hash(key.hashCode()))] != null && table[indexFor(hash(key.hashCode()))].key == key
+        return table[indexFor(hash(key.hashCode()))] != null && (table[indexFor(hash(key.hashCode()))].key.hashCode()
+                == key.hashCode() && (table[indexFor(hash(key.hashCode()))].key == key)
+                || (key != null && key.equals(table[indexFor(hash(key.hashCode()))].key)))
                 ? table[indexFor(hash(key.hashCode()))].value : null;
     }
 
     @Override
     public boolean remove(K key) {
         boolean result = false;
-        if (!isEmpty(key) && table[indexFor(hash(key.hashCode()))].key == key) {
+        if (!isEmpty(key) && (table[indexFor(hash(key.hashCode()))].key.hashCode() == key.hashCode()
+                && (table[indexFor(hash(key.hashCode()))].key == key)
+                || (key != null && key.equals(table[indexFor(hash(key.hashCode()))].key)))) {
             table[indexFor(hash(key.hashCode()))] = null;
             modCount++;
             count--;
@@ -107,5 +112,23 @@ public class SimpleMap<K, V> implements Map<K, V> {
             this.key = key;
             this.value = value;
         }
+
+        @Override
+        public boolean equals(Object o) {
+            if (this == o) {
+                return true;
+            }
+            if (o == null || getClass() != o.getClass()) {
+                return false;
+            }
+            MapEntry<?, ?> mapEntry = (MapEntry<?, ?>) o;
+            return Objects.equals(key, mapEntry.key);
+        }
+
+        @Override
+        public int hashCode() {
+            return Objects.hash(key);
+        }
     }
+
 }
