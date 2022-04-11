@@ -57,17 +57,19 @@ public class SimpleMap<K, V> implements Map<K, V> {
 
     @Override
     public V get(K key) {
-        return table[indexFor(hash(key.hashCode()))] != null && (table[indexFor(hash(key.hashCode()))].key.hashCode()
-                == key.hashCode() && (key != null && key.equals(table[indexFor(hash(key.hashCode()))].key)))
-                ? table[indexFor(hash(key.hashCode()))].value : null;
+        int index = indexFor(hash(key.hashCode()));
+        return table[index] != null && (table[index].key.hashCode()
+                == key.hashCode() && (Objects.equals(key, table[index].key)))
+                ? table[index].value : null;
     }
 
     @Override
     public boolean remove(K key) {
         boolean result = false;
-        if (!isEmpty(key) && (table[indexFor(hash(key.hashCode()))].key.hashCode() == key.hashCode()
-                && (key != null && key.equals(table[indexFor(hash(key.hashCode()))].key)))) {
-            table[indexFor(hash(key.hashCode()))] = null;
+        int index = indexFor(hash(key.hashCode()));
+        if (!isEmpty(key) && (table[index].key.hashCode() == key.hashCode()
+                && (Objects.equals(key, table[index].key)))) {
+            table[index] = null;
             modCount++;
             count--;
             result = true;
