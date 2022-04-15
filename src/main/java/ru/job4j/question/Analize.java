@@ -1,26 +1,25 @@
 package ru.job4j.question;
 
 import java.util.*;
-import java.util.concurrent.TimeUnit;
 
 public class Analize {
 
     public static Info diff(Set<User> previous, Set<User> current) {
         Info rsl = new Info(0, 0, 0);
         int changed = 0;
-        int count = 0;
-        for (User prev : previous) {
-            for (User curr : current) {
-                if (prev.getId() == curr.getId()) {
-                    if (!prev.getName().equals(curr.getName())) {
-                        rsl.setChanged(++changed);
-                    }
-                    count++;
-                }
+        Set<User> temp = new HashSet<>(current);
+        temp.removeAll(previous);
+        List<Integer> list = new ArrayList<>();
+        for (User value : temp) {
+            list.add(value.getId());
+        }
+        for (User value : previous) {
+            if (list.contains(value.getId())) {
+                rsl.setChanged(++changed);
             }
         }
-        rsl.setDeleted(previous.size() - count);
-        rsl.setAdded(current.size() - count);
+        rsl.setAdded(list.size() - changed);
+        rsl.setDeleted(previous.size() + temp.size() - current.size() - changed);
         return rsl;
     }
 }
