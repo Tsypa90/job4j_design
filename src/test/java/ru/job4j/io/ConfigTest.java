@@ -12,7 +12,7 @@ public class ConfigTest {
         String path = "./data/pair_without_comment.properties";
         Config config = new Config(path);
         config.load();
-        assertThat(config.value("username"), is("postgres"));
+        assertThat(config.value("hibernate.dialect"), is("org.hibernate.dialect.PostgreSQLDialect"));
         assertThat(config.value("surname"), is(Matchers.nullValue()));
     }
 
@@ -21,7 +21,7 @@ public class ConfigTest {
         String path = "./data/pair_with_comment_and_empty_lines.properties";
         Config config = new Config(path);
         config.load();
-        assertThat(config.value("username"), is("postgres"));
+        assertThat(config.value("hibernate.dialect"), is("org.hibernate.dialect.PostgreSQLDialect"));
     }
 
     @Test (expected = IllegalArgumentException.class)
@@ -29,6 +29,5 @@ public class ConfigTest {
         String path = "./data/pair_with_illegal_argument.properties";
         Config config = new Config(path);
         config.load();
-        assertThat(config.value("username"), is("postgres"));
     }
 }

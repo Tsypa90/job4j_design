@@ -5,6 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 import java.util.StringJoiner;
 
 public class Config {
@@ -18,11 +19,10 @@ public class Config {
     public void load() {
         try (BufferedReader read = new BufferedReader(new FileReader(this.path))) {
             for (String line = read.readLine(); line != null; line = read.readLine()) {
-                if (!line.contains("#") && !line.isEmpty()) {
-                        String key = line.substring(line.indexOf('.') + 1, line.indexOf('='));
-                        key = key.substring(key.indexOf('.') + 1);
-                        String value = line.substring(line.indexOf('=') + 1);
-                        if (key == "" || value == "") {
+                if (line.indexOf('#') != 0 && !line.isEmpty()) {
+                        String key = line.split("=")[0];
+                        String value = line.split("=")[1];
+                        if (key.isEmpty() || value.isEmpty()) {
                             throw new IllegalArgumentException();
                         }
                         values.put(key, value);
@@ -46,9 +46,5 @@ public class Config {
             e.printStackTrace();
         }
         return out.toString();
-    }
-
-    public static void main(String[] args) {
-        System.out.println(new Config("app.properties"));
     }
 }
