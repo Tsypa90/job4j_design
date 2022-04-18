@@ -1,8 +1,6 @@
 package ru.job4j.io;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
 
 public class Analizy {
 
@@ -17,7 +15,7 @@ public class Analizy {
                         }
                     } else {
                         serverDownTime = serverDownTime + ";" + line.substring(line.indexOf(' ') + 1);
-                        if (!serverDownTime.substring(0, serverDownTime.indexOf(';')).equals("null")) {
+                        if (!"null".equals(serverDownTime.substring(0, serverDownTime.indexOf(';')))) {
                             out.println(serverDownTime);
                         }
                         serverDownTime = null;
