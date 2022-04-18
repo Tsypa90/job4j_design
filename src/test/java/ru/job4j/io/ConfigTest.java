@@ -30,4 +30,11 @@ public class ConfigTest {
         Config config = new Config(path);
         config.load();
     }
+
+    @Test (expected = IllegalArgumentException.class)
+    public void whenPairWithoutEqual() {
+        String path = "./data/pair_with_illegal_argument.properties";
+        Config config = new Config(path);
+        config.load();
+    }
 }

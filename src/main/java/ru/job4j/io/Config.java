@@ -5,7 +5,6 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
 import java.util.StringJoiner;
 
 public class Config {
@@ -20,11 +19,15 @@ public class Config {
         try (BufferedReader read = new BufferedReader(new FileReader(this.path))) {
             for (String line = read.readLine(); line != null; line = read.readLine()) {
                 if (line.indexOf('#') != 0 && !line.isEmpty()) {
-                        String[] keyValue = line.split("=");
-                        if (keyValue[0].isEmpty() || keyValue[1].isEmpty()) {
-                            throw new IllegalArgumentException("Missing key value pair");
+                    if (!line.contains("=")) {
+                        throw new IllegalArgumentException("Missing = in line");
+                    }
+                    String[] keyValue = line.split("=");
+                    if (keyValue[0].isEmpty() || keyValue[1].isEmpty()) {
+                        throw new IllegalArgumentException("Missing key value pair");
                         }
-                        values.put(keyValue[0], keyValue[1]);
+                    values.put(keyValue[0], keyValue[1]);
+
                 }
             }
         } catch (IOException e) {
