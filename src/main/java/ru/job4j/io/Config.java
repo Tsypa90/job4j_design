@@ -20,12 +20,11 @@ public class Config {
         try (BufferedReader read = new BufferedReader(new FileReader(this.path))) {
             for (String line = read.readLine(); line != null; line = read.readLine()) {
                 if (line.indexOf('#') != 0 && !line.isEmpty()) {
-                        String key = line.split("=")[0];
-                        String value = line.split("=")[1];
-                        if (key.isEmpty() || value.isEmpty()) {
-                            throw new IllegalArgumentException();
+                        String[] keyValue = line.split("=");
+                        if (keyValue[0].isEmpty() || keyValue[1].isEmpty()) {
+                            throw new IllegalArgumentException("Missing key value pair");
                         }
-                        values.put(key, value);
+                        values.put(keyValue[0], keyValue[1]);
                 }
             }
         } catch (IOException e) {
