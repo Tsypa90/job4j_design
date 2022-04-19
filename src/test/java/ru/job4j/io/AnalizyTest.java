@@ -11,7 +11,7 @@ import java.io.IOException;
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
 
-public class AnalizyTest{
+public class AnalizyTest {
     @Rule
     public TemporaryFolder folder = new TemporaryFolder();
 
