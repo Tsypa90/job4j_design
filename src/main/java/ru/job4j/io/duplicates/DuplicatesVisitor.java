@@ -9,14 +9,28 @@ import java.util.*;
 
 public class DuplicatesVisitor extends SimpleFileVisitor<Path> {
 
-    private Set<FileProperty> duplicates = new HashSet<>();
+    private static Map<FileProperty, List<Path>> duplicates = new HashMap<>();
 
     @Override
     public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
-        if (!duplicates.add(new FileProperty(file.toAbsolutePath().toFile().length(),
-                file.toAbsolutePath().toFile().getName()))) {
-            System.out.println(file.toAbsolutePath());
+        FileProperty fileProperty = new FileProperty(file.toAbsolutePath().toFile().length(),
+                file.toAbsolutePath().toFile().getName());
+        if (duplicates.containsKey(fileProperty)) {
+            duplicates.get(fileProperty).add(file.toAbsolutePath());
+        } else {
+            duplicates.put(fileProperty, new ArrayList<>());
+            duplicates.get(fileProperty).add(file.toAbsolutePath());
         }
         return super.visitFile(file, attrs);
+    }
+
+    public void printPath() {
+        for (List<Path> value : duplicates.values()) {
+            if (value.size() > 1) {
+                for (Path path : value) {
+                    System.out.println(path);
+                }
+            }
+        }
     }
 }
