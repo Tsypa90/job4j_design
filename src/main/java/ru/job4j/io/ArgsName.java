@@ -14,11 +14,19 @@ public class ArgsName {
         return values.get(key);
     }
 
+    private static void validationArgs(String[] args) {
+        if (args.length == 0) {
+            throw new IllegalArgumentException("There are no args.");
+        }
+        for (String arg : args) {
+            if (!arg.contains("=") || !arg.startsWith("-")) {
+                throw new IllegalArgumentException("There are no = sign or don't start with - .");
+            }
+        }
+    }
+
     private void parse(String[] args) {
         for (String arg : args) {
-            if (!arg.contains("=")) {
-                throw new IllegalArgumentException("There are no = sign.");
-            }
             String key = arg.substring(arg.indexOf("-") + 1, arg.indexOf("="));
             String value = arg.substring(arg.indexOf('=') + 1);
             if (key.isEmpty() || value.isEmpty()) {
@@ -29,6 +37,7 @@ public class ArgsName {
     }
 
     public static ArgsName of(String[] args) {
+        validationArgs(args);
         ArgsName names = new ArgsName();
         names.parse(args);
         return names;
