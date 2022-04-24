@@ -22,17 +22,23 @@ public class Zip {
         }
     }
 
-    public static void main(String[] args) throws IOException {
-        Zip zip = new Zip();
+    private static ArgsName validationArgs(String[] args) {
         if (args.length != 3) {
             throw new IllegalArgumentException("Not all conditions.");
         }
         ArgsName jvm = ArgsName.of(args);
-        if (!Files.exists(Path.of(jvm.get("d")))) {
-            throw new IllegalArgumentException("Directory is not exists.");
+        if (!Files.exists(Path.of(jvm.get("d"))) || !jvm.get("e").startsWith(".")) {
+            throw new IllegalArgumentException("Arg is not correct or dir is not exist.");
         }
+        return jvm;
+    }
+
+    public static void main(String[] args) throws IOException {
+        Zip zip = new Zip();
+        ArgsName validate = validationArgs(args);
         zip.packFiles(
-                Search.search(Path.of(jvm.get("d")), k -> !k.toFile().getName().endsWith(jvm.get("e"))),
-                new File(jvm.get("o")));
+                Search.search(Path.of(validate.get("d")),
+                        k -> !k.toFile().getName().endsWith(validate.get("e"))),
+                new File(validate.get("o")));
     }
 }
