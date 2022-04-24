@@ -1,6 +1,7 @@
 package ru.job4j.io;
 
 import java.io.*;
+import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
 import java.util.zip.ZipEntry;
@@ -27,6 +28,9 @@ public class Zip {
             throw new IllegalArgumentException("Not all conditions.");
         }
         ArgsName jvm = ArgsName.of(args);
+        if (!Files.exists(Path.of(jvm.get("d")))) {
+            throw new IllegalArgumentException("Directory is not exists.");
+        }
         zip.packFiles(
                 Search.search(Path.of(jvm.get("d")), k -> !k.toFile().getName().endsWith(jvm.get("e"))),
                 new File(jvm.get("o")));
