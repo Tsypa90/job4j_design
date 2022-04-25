@@ -25,12 +25,12 @@ public class ConsoleChat {
         while (chat) {
             String phrase = input.askStr();
             log.add("Пользователь: " + phrase);
-            if (phrase.equals(STOP)) {
-                while (!phrase.equals(CONTINUE)) {
+            if (STOP.equals(phrase)) {
+                while (!CONTINUE.equals(phrase)) {
                     phrase = input.askStr();
                     log.add("Пользователь: " + phrase);
                 }
-            } else if (phrase.equals(OUT)) {
+            } else if (OUT.equals(phrase)) {
                 System.out.println("Бот: Пока!");
                 chat = false;
                 break;
