@@ -24,14 +24,22 @@ public class CSVReader {
                         }
                     }
                 }
-                out.println(result);
+                if (argsName.get("out").equals("stdout")) {
+                    System.out.println(result);
+                } else {
+                    out.println(result);
+                }
                 result = new StringJoiner(argsName.get("delimiter"));
-                 while (scanner.hasNext()) {
+                while (scanner.hasNext()) {
                      lines = scanner.nextLine().split(argsName.get("delimiter"));
                      for (Integer number : columnNumber) {
                          result.add(lines[number]);
                      }
-                     out.println(result);
+                     if (argsName.get("out").equals("stdout")) {
+                         System.out.println(result);
+                     } else {
+                         out.println(result);
+                     }
                      result = new StringJoiner(argsName.get("delimiter"));
                  }
                 }
@@ -45,6 +53,9 @@ public class CSVReader {
             throw new IllegalArgumentException("Not all conditions.");
         }
         ArgsName jvm = ArgsName.of(args);
+        if (!jvm.get("path").endsWith(".csv")) {
+            throw new IllegalArgumentException("Path is not csv file");
+        }
         return jvm;
     }
 
