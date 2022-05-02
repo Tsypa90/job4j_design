@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<person>
+    <name>Pavel</name>
+    <age>31</age>
+    <married>true</married>
+    <contact zipCode="192532" phone="8(921)871-20-10"/>
+    <interests>
+        <interest>hockey</interest>
+        <interest>cars</interest>
+    </interests>
+</person>
