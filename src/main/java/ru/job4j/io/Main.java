@@ -1,30 +1,21 @@
 package ru.job4j.io;
 
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.JAXBException;
-import javax.xml.bind.Marshaller;
-import javax.xml.bind.Unmarshaller;
-import java.io.IOException;
-import java.io.StringReader;
-import java.io.StringWriter;
+import org.json.JSONArray;
+import org.json.JSONObject;
 
 public class Main {
-    public static void main(String[] args) throws JAXBException, IOException {
+    public static void main(String[] args) {
         final Person person = new Person("Pavel", 30, true,
                 new Contact(192532, "+7(921) 871-2010"), new String[]{"hockey", "cars"});
-        JAXBContext context = JAXBContext.newInstance(Person.class);
-        Marshaller marshaller = context.createMarshaller();
-        marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
-        String xml = "";
-        try (StringWriter writer = new StringWriter()) {
-            marshaller.marshal(person, writer);
-            xml = writer.getBuffer().toString();
-            System.out.println(xml);
-        }
-        Unmarshaller unmarshaller = context.createUnmarshaller();
-        try (StringReader reader = new StringReader(xml)) {
-            Person rsl = (Person) unmarshaller.unmarshal(reader);
-            System.out.println(rsl);
-        }
+        JSONObject jsonContact = new JSONObject("{\"zipCode\":192532, \"phone\":\"+7(921) 871-2010\"}");
+        JSONArray jsonInterests = new JSONArray(person.getInterests());
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.put("name", person.getName());
+        jsonObject.put("age", person.getAge());
+        jsonObject.put("married", person.isMarried());
+        jsonObject.put("contact", jsonContact);
+        jsonObject.put("interests", jsonInterests);
+        System.out.println(jsonObject.toString());
+        System.out.println(new JSONObject(person).toString());
     }
 }

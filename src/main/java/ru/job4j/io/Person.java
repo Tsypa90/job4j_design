@@ -1,24 +1,34 @@
 package ru.job4j.io;
 
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.JAXBException;
-import javax.xml.bind.Marshaller;
 import javax.xml.bind.annotation.*;
-import java.io.StringWriter;
 import java.util.Arrays;
 
-@XmlRootElement(name = "person")
-@XmlAccessorType(XmlAccessType.FIELD)
 public class Person {
-    @XmlAttribute
     private String name;
-    @XmlAttribute
     private int age;
-    @XmlAttribute
     private boolean married;
     private Contact contact;
-    @XmlElementWrapper(name = "interests")
-    @XmlElement(name = "interest")
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public boolean isMarried() {
+        return married;
+    }
+
+    public Contact getContact() {
+        return contact;
+    }
+
+    public String[] getInterests() {
+        return interests;
+    }
+
     private String[] interests;
 
     public Person() {
