@@ -1,30 +1,30 @@
 package ru.job4j.io;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-
-import java.lang.reflect.Array;
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Marshaller;
+import javax.xml.bind.Unmarshaller;
+import java.io.IOException;
+import java.io.StringReader;
+import java.io.StringWriter;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws JAXBException, IOException {
         final Person person = new Person("Pavel", 30, true,
                 new Contact(192532, "+7(921) 871-2010"), new String[]{"hockey", "cars"});
-        final Gson gson = new GsonBuilder().create();
-        System.out.println(gson.toJson(person));
-        final String personJson =
-                "{"
-                        + "\"name\":Pavel,"
-                        + "\"age\":30,"
-                        + "\"married\":true,"
-                        + "\"contact\":"
-                        + "{"
-                        + "\"zipCode\":192532,"
-                        + "\"phone\":\"+7(921)871-2010\""
-                        + "},"
-                        + "\"interests\":"
-                        + "[\"hockey\",\"cars\"]"
-                        + "}";
-        final Person personMod = gson.fromJson(personJson, Person.class);
-        System.out.println(personMod);
+        JAXBContext context = JAXBContext.newInstance(Person.class);
+        Marshaller marshaller = context.createMarshaller();
+        marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
+        String xml = "";
+        try (StringWriter writer = new StringWriter()) {
+            marshaller.marshal(person, writer);
+            xml = writer.getBuffer().toString();
+            System.out.println(xml);
+        }
+        Unmarshaller unmarshaller = context.createUnmarshaller();
+        try (StringReader reader = new StringReader(xml)) {
+            Person rsl = (Person) unmarshaller.unmarshal(reader);
+            System.out.println(rsl);
+        }
     }
 }
