@@ -1,0 +1,651 @@
+/home/pavel/.local/share/Trash/files/oneBlock.2/db/000931.log
+/home/pavel/.local/share/Trash/files/db/000931.log
+/home/pavel/.local/share/Trash/files/oneBlock/db/000720.log
+/home/pavel/.local/share/Steam/config/htmlcache/File System/Origins/000003.log
+/home/pavel/.local/share/Steam/config/htmlcache/VideoDecodeStats/000003.log
+/home/pavel/.local/share/Steam/config/htmlcache/shared_proto_db/metadata/000003.log
+/home/pavel/.local/share/Steam/config/htmlcache/000003.log
+/home/pavel/.local/share/Steam/config/htmlcache/Local Storage/leveldb/000003.log
+/home/pavel/.local/share/Steam/config/htmlcache/Session Storage/000003.log
+/home/pavel/.local/share/Steam/logs/steamwebhelper.log
+/home/pavel/snap/chromium/common/chromium/Default/GCM Store/Encryption/000003.log
+/home/pavel/snap/chromium/common/chromium/Default/Site Characteristics Database/000003.log
+/home/pavel/snap/chromium/common/chromium/Default/Sync Data/LevelDB/000003.log
+/home/pavel/snap/chromium/common/chromium/Default/shared_proto_db/metadata/000003.log
+/home/pavel/snap/chromium/common/chromium/Default/shared_proto_db/000003.log
+/home/pavel/snap/chromium/common/chromium/Default/Extension State/000003.log
+/home/pavel/snap/chromium/common/chromium/Default/data_reduction_proxy_leveldb/000005.log
+/home/pavel/snap/chromium/common/chromium/Default/Extension Scripts/000003.log
+/home/pavel/snap/chromium/common/chromium/Default/Local Storage/leveldb/000003.log
+/home/pavel/snap/chromium/common/chromium/Default/Session Storage/000003.log
+/home/pavel/Загрузки/db/000720.log
+/home/pavel/.minecraft/logs/latest.log
+/home/pavel/.minecraft/webcache2/000003.log
+/home/pavel/.minecraft/webcache2/Local Storage/leveldb/000003.log
+/home/pavel/.minecraft/webcache2/Session Storage/000003.log
+/home/pavel/.config/unity3d/Sandbox Interactive GmbH/Albion Online Client/Player.log
+/home/pavel/.config/google-chrome/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/Local Storage/leveldb/000003.log
+/home/pavel/.config/google-chrome/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/Session Storage/000003.log
+/home/pavel/.config/google-chrome/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Local Storage/leveldb/000003.log
+/home/pavel/.config/google-chrome/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Session Storage/000003.log
+/home/pavel/.config/google-chrome/Default/GCM Store/Encryption/000003.log
+/home/pavel/.config/google-chrome/Default/GCM Store/000003.log
+/home/pavel/.config/google-chrome/Default/Site Characteristics Database/lost/000003.log
+/home/pavel/.config/google-chrome/Default/Site Characteristics Database/000006.log
+/home/pavel/.config/google-chrome/Default/Sync Data/LevelDB/002059.log
+/home/pavel/.config/google-chrome/Default/File System/298/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/122/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/230/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/370/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/337/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/215/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/167/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/214/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/150/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/285/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/247/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/135/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/406/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/419/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/353/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/340/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/060/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/124/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/320/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/137/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/020/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/341/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/255/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/375/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/216/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/088/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/321/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/363/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/260/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/062/p/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/276/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/219/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/309/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/194/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/227/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/161/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/175/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/223/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/354/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/412/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/267/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/258/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/188/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/394/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/218/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/143/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/233/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/308/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/050/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/335/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/330/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/134/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/399/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/310/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/332/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/292/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/314/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/301/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/051/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/294/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/182/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/058/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/324/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/275/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/123/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/283/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/172/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/191/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/289/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/025/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/067/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/246/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/031/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/138/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/382/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/098/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/093/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/Origins/000003.log
+/home/pavel/.config/google-chrome/Default/File System/010/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/195/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/071/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/183/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/373/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/086/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/013/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/077/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/245/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/046/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/002/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/019/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/158/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/151/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/398/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/190/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/115/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/217/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/043/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/286/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/041/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/265/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/402/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/102/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/114/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/387/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/155/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/329/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/304/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/322/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/239/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/315/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/129/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/234/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/421/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/061/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/213/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/379/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/388/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/112/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/381/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/343/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/397/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/100/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/083/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/022/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/132/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/303/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/105/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/090/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/417/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/000/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/187/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/141/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/202/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/368/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/152/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/055/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/076/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/103/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/094/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/423/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/206/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/222/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/144/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/359/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/374/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/226/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/290/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/119/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/042/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/323/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/278/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/156/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/250/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/307/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/336/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/070/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/273/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/005/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/326/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/178/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/027/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/107/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/293/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/295/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/221/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/248/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/081/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/415/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/252/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/026/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/063/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/078/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/110/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/200/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/101/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/271/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/312/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/057/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/073/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/007/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/270/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/393/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/048/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/201/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/030/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/203/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/097/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/263/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/128/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/157/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/305/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/133/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/180/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/228/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/235/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/325/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/268/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/011/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/342/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/091/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/001/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/084/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/016/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/111/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/319/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/367/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/208/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/257/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/087/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/029/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/165/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/205/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/131/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/377/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/018/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/017/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/092/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/262/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/184/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/386/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/121/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/096/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/274/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/256/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/238/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/390/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/163/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/350/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/113/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/344/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/391/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/261/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/080/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/069/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/059/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/371/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/242/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/220/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/171/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/384/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/385/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/225/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/193/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/176/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/006/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/054/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/339/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/066/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/145/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/079/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/232/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/333/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/199/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/196/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/207/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/369/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/109/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/338/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/361/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/181/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/380/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/082/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/345/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/162/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/146/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/383/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/346/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/147/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/237/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/038/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/014/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/358/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/284/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/116/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/085/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/159/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/044/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/032/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/400/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/127/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/074/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/154/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/409/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/136/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/306/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/197/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/297/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/251/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/095/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/279/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/378/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/039/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/404/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/249/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/422/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/240/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/125/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/089/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/148/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/120/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/410/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/108/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/164/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/356/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/291/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/072/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/266/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/224/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/389/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/418/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/360/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/209/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/282/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/372/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/405/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/413/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/253/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/192/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/401/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/331/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/052/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/149/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/166/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/140/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/047/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/153/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/173/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/169/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/049/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/241/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/395/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/424/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/318/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/281/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/004/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/236/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/376/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/287/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/327/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/407/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/040/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/231/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/296/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/009/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/198/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/045/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/362/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/126/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/366/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/259/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/168/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/064/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/036/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/313/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/355/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/075/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/272/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/099/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/317/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/254/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/056/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/037/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/347/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/033/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/174/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/028/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/035/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/008/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/170/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/023/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/349/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/416/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/411/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/352/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/034/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/142/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/015/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/311/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/211/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/408/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/139/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/177/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/334/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/264/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/024/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/365/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/299/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/243/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/021/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/277/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/179/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/351/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/392/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/269/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/130/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/328/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/288/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/012/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/186/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/160/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/210/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/104/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/117/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/204/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/065/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/185/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/053/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/302/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/396/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/003/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/212/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/189/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/364/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/068/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/244/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/357/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/316/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/229/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/300/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/420/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/414/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/403/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/106/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/348/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/118/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/File System/280/t/Paths/000003.log
+/home/pavel/.config/google-chrome/Default/shared_proto_db/metadata/000003.log
+/home/pavel/.config/google-chrome/Default/shared_proto_db/000007.log
+/home/pavel/.config/google-chrome/Default/Local Extension Settings/ghbmnnjooekpmoecnnnilnnbdlolhkhi/000003.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_s.tradingview.com_0.indexeddb.leveldb/000055.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_www.dns-shop.ru_0.indexeddb.leveldb/000004.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_www.championat.com_0.indexeddb.leveldb/000004.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_www.eldorado.ru_0.indexeddb.leveldb/000004.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000133.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_techcave.ru_0.indexeddb.leveldb/000003.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_www.citilink.ru_0.indexeddb.leveldb/000027.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_meshok.net_0.indexeddb.leveldb/000003.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_www.popmech.ru_0.indexeddb.leveldb/000003.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_www.ozon.ru_0.indexeddb.leveldb/000007.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_wotpack.ru_0.indexeddb.leveldb/000004.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_spasibosberbank.ru_0.indexeddb.leveldb/000003.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_www.xbox.com_0.indexeddb.leveldb/000004.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_business.ozon.ru_0.indexeddb.leveldb/000003.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_www.fandom.com_0.indexeddb.leveldb/000023.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_aliexpress.ru_0.indexeddb.leveldb/000058.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_calls.mail.ru_0.indexeddb.leveldb/000087.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_www.minecraft.net_0.indexeddb.leveldb/000004.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_vlscppe.microsoft.com_0.indexeddb.leveldb/000003.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_www.lamoda.ru_0.indexeddb.leveldb/000004.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_www.fontanka.ru_0.indexeddb.leveldb/000003.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_h.online-metrix.net_0.indexeddb.leveldb/000003.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_skysmart.ru_0.indexeddb.leveldb/000007.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_spb.vseinstrumenti.ru_0.indexeddb.leveldb/000003.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_hyperauto.ru_0.indexeddb.leveldb/000003.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_www.technopark.ru_0.indexeddb.leveldb/000004.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_itsobes.ru_0.indexeddb.leveldb/000004.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_www.internet-technologies.ru_0.indexeddb.leveldb/000004.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_googleads.g.doubleclick.net_0.indexeddb.leveldb/000003.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_matchtv.ru_0.indexeddb.leveldb/000004.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_codeforces.com_0.indexeddb.leveldb/000004.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_plastik-avto.ru_0.indexeddb.leveldb/000003.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_id.atlassian.com_0.indexeddb.leveldb/000003.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_www.chrono24.com.ru_0.indexeddb.leveldb/000003.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_azure.microsoft.com_0.indexeddb.leveldb/000003.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000612.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_sbermarket.ru_0.indexeddb.leveldb/000004.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/000003.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_www.moyo.ua_0.indexeddb.leveldb/000003.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_www.mvideo.ru_0.indexeddb.leveldb/000007.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_marriedgames.com.br_0.indexeddb.leveldb/000003.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_regex101.com_0.indexeddb.leveldb/000003.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_www.cyberforum.ru_0.indexeddb.leveldb/000091.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_serieslife.online_0.indexeddb.leveldb/000011.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/000455.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_cloud.mail.ru_0.indexeddb.leveldb/000023.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_e.mail.ru_0.indexeddb.leveldb/000111.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_www.fotosklad.ru_0.indexeddb.leveldb/000004.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_www.avito.ru_0.indexeddb.leveldb/000003.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_delonghi.ru_0.indexeddb.leveldb/000003.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_lite-1x513392.top_0.indexeddb.leveldb/000004.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_hyperpc.ru_0.indexeddb.leveldb/000004.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_vk.com_0.indexeddb.leveldb/000023.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_app.diagrams.net_0.indexeddb.leveldb/000011.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_minecraft.fandom.com_0.indexeddb.leveldb/000024.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_pets.mail.ru_0.indexeddb.leveldb/000007.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_bdb0e6054dc3381a56940c980cc9b39a.safeframe.googlesyndication.com_0.indexeddb.leveldb/000004.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_art-assorty.ru_0.indexeddb.leveldb/000004.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_deliciously.ru_0.indexeddb.leveldb/000003.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_ddab6e1eb7b2a21138db0a0869396928.safeframe.googlesyndication.com_0.indexeddb.leveldb/000003.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_azminecraft.ru_0.indexeddb.leveldb/000004.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_vodopad.ru_0.indexeddb.leveldb/000003.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_www.tinkoff.ru_0.indexeddb.leveldb/000004.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_pythonist.ru_0.indexeddb.leveldb/000004.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_www.flightradar24.com_0.indexeddb.leveldb/000003.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_skillbox.ru_0.indexeddb.leveldb/000004.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_50hz.shop_0.indexeddb.leveldb/000003.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_www.sberbank.ru_0.indexeddb.leveldb/000004.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_www.vseinstrumenti.ru_0.indexeddb.leveldb/000003.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_pulse.mail.ru_0.indexeddb.leveldb/000098.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_javadevblog.com_0.indexeddb.leveldb/000004.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_losst.ru_0.indexeddb.leveldb/000015.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_supernewchamps.com_0.indexeddb.leveldb/000004.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_word-view.officeapps.live.com_0.indexeddb.leveldb/000004.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_petrovich.ru_0.indexeddb.leveldb/000003.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_sbermegamarket.ru_0.indexeddb.leveldb/000007.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_instamart.helpdeskeddy.com_0.indexeddb.leveldb/000003.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_habr.com_0.indexeddb.leveldb/000063.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_xn----jtbhhd0asebdc5i.xn--p1ai_0.indexeddb.leveldb/000003.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_javarush.ru_0.indexeddb.leveldb/000052.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_leroymerlin.ru_0.indexeddb.leveldb/000004.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/000004.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_www.microsoft.com_0.indexeddb.leveldb/000004.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_yandex.ru_0.indexeddb.leveldb/000003.log
+/home/pavel/.config/google-chrome/Default/IndexedDB/https_js.ad-score.com_0.indexeddb.leveldb/000347.log
+/home/pavel/.config/google-chrome/Default/Extension State/000003.log
+/home/pavel/.config/google-chrome/Default/Service Worker/Database/000012.log
+/home/pavel/.config/google-chrome/Default/data_reduction_proxy_leveldb/000541.log
+/home/pavel/.config/google-chrome/Default/Extension Rules/000003.log
+/home/pavel/.config/google-chrome/Default/Extension Scripts/000003.log
+/home/pavel/.config/google-chrome/Default/Local Storage/leveldb/003769.log
+/home/pavel/.config/google-chrome/Default/Session Storage/001197.log
+/home/pavel/.config/Code/logs/20211121T114446/output_1_20211121T114447/extensions.log
+/home/pavel/.config/Code/logs/20211121T114446/output_1_20211121T114447/tasks.log
+/home/pavel/.config/Code/logs/20211121T114446/main.log
+/home/pavel/.config/Code/logs/20211121T114446/userDataSync.log
+/home/pavel/.config/Code/logs/20211121T114446/sharedprocess.log
+/home/pavel/.config/Code/logs/20211121T114446/output_1_20211121T114500/extensions.log
+/home/pavel/.config/Code/logs/20211121T114446/output_1_20211121T114500/tasks.log
+/home/pavel/.config/Code/logs/20211121T114446/exthost1/exthost.log
+/home/pavel/.config/Code/logs/20211121T114446/renderer1.log
+/home/pavel/.config/Code/logs/20211121T114446/telemetry.log
+/home/pavel/.config/Code/logs/20211123T214841/main.log
+/home/pavel/.config/Code/logs/20211123T214841/userDataSync.log
+/home/pavel/.config/Code/logs/20211123T214841/sharedprocess.log
+/home/pavel/.config/Code/logs/20211123T214841/output_1_20211123T214842/extensions.log
+/home/pavel/.config/Code/logs/20211123T214841/output_1_20211123T214842/tasks.log
+/home/pavel/.config/Code/logs/20211123T214841/exthost1/exthost.log
+/home/pavel/.config/Code/logs/20211123T214841/renderer1.log
+/home/pavel/.config/Code/logs/20211123T214841/telemetry.log
+/home/pavel/.config/Code/logs/20211120T020624/main.log
+/home/pavel/.config/Code/logs/20211120T020624/userDataSync.log
+/home/pavel/.config/Code/logs/20211120T020624/sharedprocess.log
+/home/pavel/.config/Code/logs/20211120T020624/output_1_20211120T020635/extensions.log
+/home/pavel/.config/Code/logs/20211120T020624/output_1_20211120T020635/tasks.log
+/home/pavel/.config/Code/logs/20211120T020624/exthost1/exthost.log
+/home/pavel/.config/Code/logs/20211120T020624/renderer1.log
+/home/pavel/.config/Code/logs/20211120T020624/telemetry.log
+/home/pavel/.config/Code/logs/20211120T020624/output_1_20211120T020625/extensions.log
+/home/pavel/.config/Code/logs/20211120T020624/output_1_20211120T020625/tasks.log
+/home/pavel/.config/Code/logs/20211211T105741/output_1_20211211T105743/extensions.log
+/home/pavel/.config/Code/logs/20211211T105741/output_1_20211211T105743/tasks.log
+/home/pavel/.config/Code/logs/20211211T105741/main.log
+/home/pavel/.config/Code/logs/20211211T105741/userDataSync.log
+/home/pavel/.config/Code/logs/20211211T105741/sharedprocess.log
+/home/pavel/.config/Code/logs/20211211T105741/exthost1/exthost.log
+/home/pavel/.config/Code/logs/20211211T105741/renderer1.log
+/home/pavel/.config/Code/logs/20211211T105741/telemetry.log
+/home/pavel/.config/Code/logs/20220501T214000/main.log
+/home/pavel/.config/Code/logs/20220501T214000/userDataSync.log
+/home/pavel/.config/Code/logs/20220501T214000/sharedprocess.log
+/home/pavel/.config/Code/logs/20220501T214000/output_1_20220501T214001/extensions.log
+/home/pavel/.config/Code/logs/20220501T214000/output_1_20220501T214001/tasks.log
+/home/pavel/.config/Code/logs/20220501T214000/exthost1/exthost.log
+/home/pavel/.config/Code/logs/20220501T214000/renderer1.log
+/home/pavel/.config/Code/logs/20220501T214000/telemetry.log
+/home/pavel/.config/Code/logs/20220328T220317/main.log
+/home/pavel/.config/Code/logs/20220328T220317/userDataSync.log
+/home/pavel/.config/Code/logs/20220328T220317/sharedprocess.log
+/home/pavel/.config/Code/logs/20220328T220317/exthost1/exthost.log
+/home/pavel/.config/Code/logs/20220328T220317/renderer1.log
+/home/pavel/.config/Code/logs/20220328T220317/output_1_20220328T220319/extensions.log
+/home/pavel/.config/Code/logs/20220328T220317/output_1_20220328T220319/tasks.log
+/home/pavel/.config/Code/logs/20220328T220317/telemetry.log
+/home/pavel/.config/Code/logs/20211120T020035/main.log
+/home/pavel/.config/Code/logs/20211120T020035/userDataSync.log
+/home/pavel/.config/Code/logs/20211120T020035/output_1_20211120T020036/extensions.log
+/home/pavel/.config/Code/logs/20211120T020035/output_1_20211120T020036/tasks.log
+/home/pavel/.config/Code/logs/20211120T020035/sharedprocess.log
+/home/pavel/.config/Code/logs/20211120T020035/exthost1/exthost.log
+/home/pavel/.config/Code/logs/20211120T020035/renderer1.log
+/home/pavel/.config/Code/logs/20211120T020035/telemetry.log
+/home/pavel/.config/Code/logs/20211123T214222/output_1_20211123T214223/extensions.log
+/home/pavel/.config/Code/logs/20211123T214222/output_1_20211123T214223/tasks.log
+/home/pavel/.config/Code/logs/20211123T214222/main.log
+/home/pavel/.config/Code/logs/20211123T214222/userDataSync.log
+/home/pavel/.config/Code/logs/20211123T214222/sharedprocess.log
+/home/pavel/.config/Code/logs/20211123T214222/exthost1/exthost.log
+/home/pavel/.config/Code/logs/20211123T214222/renderer1.log
+/home/pavel/.config/Code/logs/20211123T214222/telemetry.log
+/home/pavel/.config/Code/logs/20211120T020427/main.log
+/home/pavel/.config/Code/logs/20211120T020427/userDataSync.log
+/home/pavel/.config/Code/logs/20211120T020427/sharedprocess.log
+/home/pavel/.config/Code/logs/20211120T020427/exthost1/exthost.log
+/home/pavel/.config/Code/logs/20211120T020427/renderer1.log
+/home/pavel/.config/Code/logs/20211120T020427/telemetry.log
+/home/pavel/.config/Code/logs/20211120T020427/output_1_20211120T020427/extensions.log
+/home/pavel/.config/Code/logs/20211120T020427/output_1_20211120T020427/tasks.log
+/home/pavel/.config/Code/logs/20220329T093514/main.log
+/home/pavel/.config/Code/logs/20220329T093514/userDataSync.log
+/home/pavel/.config/Code/logs/20220329T093514/sharedprocess.log
+/home/pavel/.config/Code/logs/20220329T093514/exthost1/exthost.log
+/home/pavel/.config/Code/logs/20220329T093514/renderer1.log
+/home/pavel/.config/Code/logs/20220329T093514/telemetry.log
+/home/pavel/.config/Code/logs/20220329T093514/output_1_20220329T093515/extensions.log
+/home/pavel/.config/Code/logs/20220329T093514/output_1_20220329T093515/tasks.log
+/home/pavel/.config/Code/Service Worker/Database/000003.log
+/home/pavel/.config/Code/Local Storage/leveldb/000003.log
+/home/pavel/.config/Code/Session Storage/000003.log
+/home/pavel/Документы/Projects/job4j_design/server.log
+/home/pavel/.cache/shotwell/shotwell.log
+/home/pavel/.cache/JetBrains/IdeaIC2021.3/log/build-log/build.log
+/home/pavel/.cache/JetBrains/IdeaIC2021.3/log/idea.log
+/home/pavel/.cache/JetBrains/IdeaIC2022.1/log/build-log/build.log
+/home/pavel/.cache/JetBrains/IdeaIC2022.1/log/idea.log
+/home/pavel/.cache/com.kamu.easy/45/loader.log
+/home/pavel/.cache/com.kamu.easy/203/loader.log
