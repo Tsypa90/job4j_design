@@ -26,20 +26,9 @@ public class TypeSearch {
         Files.walkFileTree(Path.of(argsName.get("d")), search);
         writeSearch(search.getResult(), argsName.get("o"));
     } else if (("mask").equals(argsName.get("t"))) {
-        StringBuilder sb = new StringBuilder();
-        var chars = argsName.get("n").toCharArray();
-        for (char one : chars) {
-            if (one == '.') {
-                sb.append("\\.");
-            } else if (one == '*') {
-                sb.append("\\w*");
-            } else if (one == '?') {
-                sb.append("\\w");
-            } else {
-                sb.append(one);
-            }
-        }
-        SearchFile search = new SearchFile(k -> k.getFileName().toString().matches(sb.toString()));
+        String mask = argsName.get("n").replace(".", "\\.")
+                .replace("*", "\\w*").replace("?", "\\w");
+        SearchFile search = new SearchFile(k -> k.getFileName().toString().matches(mask));
         Files.walkFileTree(Path.of(argsName.get("d")), search);
         writeSearch(search.getResult(), argsName.get("o"));
     } else if (("regex").equals(argsName.get("t"))) {
