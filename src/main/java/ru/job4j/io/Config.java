@@ -26,8 +26,8 @@ public class Config {
                     if (keyValue[0].isEmpty() || keyValue[1].isEmpty()) {
                         throw new IllegalArgumentException("Missing key value pair");
                         }
-                    values.put(keyValue[0], keyValue[1]);
-
+                    String[] key = keyValue[0].split("\\.");
+                    values.put(key[key.length - 1], keyValue[1]);
                 }
             }
         } catch (IOException e) {
