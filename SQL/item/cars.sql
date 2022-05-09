@@ -41,7 +41,7 @@ left join body b on c.body_id = b.id
 left join engine e on c.engine_id = e.id
 left join gearbox g on c.engine_id = g.id;
 
-select * from body b full join cars c on c.body_id = b.id where c.name is null limit 1;
-select * from engine e full join cars c on c.engine_id = e.id where c.name is null limit 1;
-select * from gearbox g full join cars c on c.gearbox_id = g.id where c.name is null limit 1;
+select * from body b left join cars c on c.body_id = b.id where c.name is null;
+select * from engine e left join cars c on c.engine_id = e.id where c.name is null;
+select * from gearbox g left join cars c on c.gearbox_id = g.id where c.name is null;
 
