@@ -1,7 +1,7 @@
 package ru.job4j.jdbc;
 
-import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.sql.*;
 import java.util.Properties;
 import java.util.StringJoiner;
@@ -98,21 +98,26 @@ public class TableEditor implements AutoCloseable {
         }
     }
 
-    public static void main(String[] args) throws SQLException, IOException, ClassNotFoundException {
+    public static void main(String[] args) {
         Properties properties = new Properties();
-        FileInputStream fis = new FileInputStream("/home/pavel/Документы/Projects/job4j_design/app.properties");
-        properties.load(fis);
-        TableEditor tableEditor = new TableEditor(properties);
-        var tableName = "my_table";
-        tableEditor.createTable(tableName);
-        System.out.println(getTableScheme(connection, tableName));
-        tableEditor.addColumn(tableName, "name", "text");
-        System.out.println(getTableScheme(connection, tableName));
-        tableEditor.renameColumn(tableName, "name", "surname");
-        System.out.println(getTableScheme(connection, tableName));
-        tableEditor.dropColumn(tableName, "surname");
-        System.out.println(getTableScheme(connection, tableName));
-        tableEditor.dropTable(tableName);
-        connection.close();
+        try (InputStream in = TableEditor.class.getClassLoader().
+                getResourceAsStream("app.properties")) {
+            properties.load(in);
+            TableEditor tableEditor = new TableEditor(properties);
+            var tableName = "my_table";
+            tableEditor.createTable(tableName);
+            System.out.println(getTableScheme(connection, tableName));
+            tableEditor.addColumn(tableName, "name", "text");
+            System.out.println(getTableScheme(connection, tableName));
+            tableEditor.renameColumn(tableName, "name", "surname");
+            System.out.println(getTableScheme(connection, tableName));
+            tableEditor.dropColumn(tableName, "surname");
+            System.out.println(getTableScheme(connection, tableName));
+            tableEditor.dropTable(tableName);
+        } catch (IOException | SQLException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
