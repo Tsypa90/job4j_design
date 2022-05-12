@@ -24,6 +24,9 @@ public class ImportDB {
         try (BufferedReader rd = new BufferedReader(new FileReader(dump))) {
             rd.lines().map(t -> {
                 var line = t.split(";");
+                if (line.length != 2 || (line[0].isEmpty() || line[1].isEmpty())) {
+                    throw new IllegalArgumentException("Not all arguments");
+                }
                 return new User(line[0], line[1]);
             }).forEach(users::add);
         } catch (IOException e) {
