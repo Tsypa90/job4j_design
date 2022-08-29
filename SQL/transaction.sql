@@ -20,8 +20,8 @@ commit;
 select * from account;
 commit;
 
-delete from products;
-ALTER SEQUENCE products_id_seq RESTART WITH 1;
+delete from account;
+ALTER SEQUENCE account_id_seq RESTART WITH 1;
 
 insert into account (name, balance) VALUES ('Pavel', 1000);
 insert into account (name, balance) VALUES ('Olga', 500);
@@ -37,8 +37,8 @@ commit;
 
 commit;
 
-delete from products;
-ALTER SEQUENCE products_id_seq RESTART WITH 1;
+delete from account;
+ALTER SEQUENCE account_id_seq RESTART WITH 1;
 
 insert into account (name, balance) VALUES ('Pavel', 1000);
 insert into account (name, balance) VALUES ('Olga', 500);
