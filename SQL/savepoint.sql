@@ -33,7 +33,6 @@ insert into account (name, balance) values('Olga', 1000);
 select * from account;
 rollback to first;
 select * from account;
-rollback to second;
 commit;
 select * from account;
 
