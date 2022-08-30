@@ -30,11 +30,12 @@ begin;
 declare
     prod_cursor scroll cursor for
             select * from products;
-move forward 4 from prod_cursor;
-fetch prior from prod_cursor;
-move forward 4 from prod_cursor;
-fetch backward from prod_cursor;
-move backward 2 from prod_cursor;
-fetch forward from prod_cursor;
+fetch last from prod_cursor;
+move backward 5 from prod_cursor;
+fetch backward 2 from prod_cursor;
+move backward 7 from prod_cursor;
+fetch backward 1 from prod_cursor;
+move backward 3 from prod_cursor;
+fetch backward 1 from prod_cursor;
 close prod_cursor;
 commit;
